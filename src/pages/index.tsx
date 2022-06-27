@@ -1,3 +1,4 @@
+import { Button } from '@chakra-ui/react'
 import type { NextPage } from 'next'
 import Image from 'next/image'
 
@@ -11,6 +12,7 @@ const Home: NextPage = () => {
           Powered by{' '}
           <span>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
+            <Button>tab</Button>
           </span>
         </a>
       </footer>
