@@ -30,6 +30,7 @@ module.exports = {
     'unused-imports'
   ],
   rules: {
+    '@next/next/no-page-custom-font': 'off',
     '@typescript-eslint/ban-ts-comment': 'off',
     '@typescript-eslint/ban-types': 'off',
     '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
