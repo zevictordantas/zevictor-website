@@ -5,7 +5,7 @@ import Image from 'next/image'
 const Home: NextPage = () => {
   return (
     <div>
-      <main>lets beat it</main>
+      <main>under maintenance</main>
 
       <footer>
         <a href="" target="_blank" rel="noopener noreferrer">
