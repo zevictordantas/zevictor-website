@@ -1,0 +1,7 @@
+export * from './CarbonaIcon'
+export * from './CbioCoinIcon'
+export * from './ChainIcon'
+export * from './EmailIcon'
+export * from './GithubIcon'
+export * from './LinkedinIcon'
+export * from './TwitterIcon'
