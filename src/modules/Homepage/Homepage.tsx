@@ -1,10 +1,16 @@
-import { Box, Heading, Stack, Text } from '@chakra-ui/layout'
+import {
+  Box,
+  Heading,
+  Link as ChakraLink,
+  Stack,
+  Text
+} from '@chakra-ui/layout'
 import { useColorModeValue } from '@chakra-ui/react'
 import Image from 'next/future/image'
 
 export const Homepage = () => {
   const outlineColor = useColorModeValue('black', 'white')
-  // const underlineColor = useColorModeValue('light.600', 'dark.600')
+  const underlineColor = useColorModeValue('light.600', 'dark.600')
 
   return (
     <>
@@ -16,7 +22,11 @@ export const Homepage = () => {
           justifyContent="center"
         >
           <Box>
-            <Heading as="h1" fontWeight="bold">
+            <Heading
+              as="h1"
+              textAlign={{ base: 'center', md: 'start' }}
+              fontWeight="bold"
+            >
               José Victor Dantas
             </Heading>
 
@@ -35,7 +45,7 @@ export const Homepage = () => {
           />
         </Stack>
 
-        {/* <Heading
+        <Heading
           fontSize="lg"
           fontWeight="bold"
           w="fit-content"
@@ -47,14 +57,18 @@ export const Homepage = () => {
 
         <Text textAlign="justify">
           José is a freelance and a full-stack developer based in Brazil with a
-          passion for building web apps with great impact. He has a knack for designing 
-          all things launching products, from planning and designing all the way
-          to solving real-life problems with code. When not online, he loves
-          hanging out with his camera. Currently, he is living off of his own
-          product called Inkdrop. He publishes content for marketing his
-          products and his YouTube channel called &quot;Dev as Life&quot; has
-          more than 100k subscribers.
-        </Text> */}
+          passion for building web apps with a socio-economic impact. He has a
+          knack for tackling community-impacting projects, from planning and
+          designing all the way to the code. When he isn’t online, you’ll be
+          able to find him riding his MTB on trails looking for waterfalls and
+          wonderful views. Currently, Zé is working on his own project,{' '}
+          <ChakraLink>carbona.io</ChakraLink>, which will be disrupting the
+          access to the process of generating carbon credits, he is also working
+          with Yeti Labs on awesome projects on the Cosmos Ecosystem, like the{' '}
+          <ChakraLink>Wizard-UI</ChakraLink>, an open-source library with react
+          components and hooks for the Terra and Cosmos community, and now is
+          working with Faktura to create the next generation of NFTs.
+        </Text>
       </Stack>
     </>
   )
