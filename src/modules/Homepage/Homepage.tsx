@@ -6,6 +6,7 @@ import {
   Text
 } from '@chakra-ui/layout'
 import { useColorModeValue } from '@chakra-ui/react'
+import { links } from 'common/const'
 import Image from 'next/future/image'
 
 export const Homepage = () => {
@@ -62,12 +63,18 @@ export const Homepage = () => {
           designing all the way to the code. When he isn’t online, you’ll be
           able to find him riding his MTB on trails looking for waterfalls and
           wonderful views. Currently, Zé is working on his own project,{' '}
-          <ChakraLink>carbona.io</ChakraLink>, which will be disrupting the
-          access to the process of generating carbon credits, he is also working
-          with Yeti Labs on awesome projects on the Cosmos Ecosystem, like the{' '}
-          <ChakraLink>Wizard-UI</ChakraLink>, an open-source library with react
-          components and hooks for the Terra and Cosmos community, and now is
-          working with Faktura to create the next generation of NFTs.
+          <ChakraLink href={links.projects.carbona} isExternal>
+            carbona.io
+          </ChakraLink>
+          , which will be disrupting the access to the process of generating
+          carbon credits, he is also working with Yeti Labs on awesome projects
+          on the Cosmos Ecosystem, like the{' '}
+          <ChakraLink href={links.projects.wizardUi} isExternal>
+            Wizard-UI
+          </ChakraLink>
+          , an open-source library with react components and hooks for the Terra
+          and Cosmos community, and now is working with Faktura to create the
+          next generation of NFTs.
         </Text>
       </Stack>
     </>

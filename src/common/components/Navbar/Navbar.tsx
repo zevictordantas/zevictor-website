@@ -1,5 +1,7 @@
 import { HStack, Link as ChakraLink, Stack } from '@chakra-ui/layout'
 import { GithubIcon } from 'assets/icons'
+import { links, paths } from 'common/const'
+import Link from 'next/link'
 
 import { ButtonToggleTheme } from '../ButtonToggleTheme'
 import { MusicControls } from '../MusicControls'
@@ -21,13 +23,24 @@ export const Navbar = () => {
         spacing={{ base: '5', md: '10' }}
         sx={{ a: { color: 'current' } }}
       >
-        <ChakraLink>Home</ChakraLink>
+        <Link href={paths.homepage}>
+          <ChakraLink>Home</ChakraLink>
+        </Link>
 
-        <ChakraLink>Works</ChakraLink>
+        <Link href={paths.works}>
+          <ChakraLink>Works</ChakraLink>
+        </Link>
 
-        <ChakraLink>Posts</ChakraLink>
+        <Link href={paths.posts}>
+          <ChakraLink>Posts</ChakraLink>
+        </Link>
 
-        <ChakraLink display="flex" alignItems="center">
+        <ChakraLink
+          href={links.projects.websiteRepo}
+          isExternal
+          display="flex"
+          alignItems="center"
+        >
           <GithubIcon boxSize="5" mr="2" /> Source
         </ChakraLink>
       </HStack>
