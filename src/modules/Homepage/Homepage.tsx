@@ -4,7 +4,7 @@ import Image from 'next/future/image'
 
 export const Homepage = () => {
   const outlineColor = useColorModeValue('black', 'white')
-  const underlineColor = useColorModeValue('light.600', 'dark.600')
+  // const underlineColor = useColorModeValue('light.600', 'dark.600')
 
   return (
     <>
