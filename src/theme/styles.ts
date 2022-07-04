@@ -16,6 +16,7 @@ export const styles: Styles = {
       lineHeight: 'base',
       maxWidth: 'container.sm',
       mx: 'auto',
+      pb: { base: '20', sm: '0' },
       px: { base: '2', sm: '4' },
       transition: 'all 0.2s'
     },
