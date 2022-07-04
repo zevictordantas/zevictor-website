@@ -2,6 +2,7 @@ import { HStack, Link as ChakraLink, Spacer } from '@chakra-ui/layout'
 import { GithubIcon } from 'assets/icons'
 
 import { ButtonToggleTheme } from '../ButtonToggleTheme'
+import { MusicControls } from '../MusicControls'
 
 export const Navbar = () => {
   return (
@@ -17,6 +18,8 @@ export const Navbar = () => {
       </ChakraLink>
 
       <Spacer />
+
+      <MusicControls />
 
       <ButtonToggleTheme />
     </HStack>
