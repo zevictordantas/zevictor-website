@@ -16,7 +16,11 @@ export const Navbar = () => {
       justifyContent="space-between"
       spacing="4"
     >
-      <HStack align="center" spacing={{ base: '5', md: '10' }}>
+      <HStack
+        align="center"
+        spacing={{ base: '5', md: '10' }}
+        sx={{ a: { color: 'current' } }}
+      >
         <ChakraLink>Home</ChakraLink>
 
         <ChakraLink>Works</ChakraLink>
