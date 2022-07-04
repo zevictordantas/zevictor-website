@@ -1,4 +1,5 @@
 import { Button } from '@chakra-ui/button'
+import { useColorModeValue } from '@chakra-ui/color-mode'
 import {
   Popover,
   PopoverArrow,
@@ -25,6 +26,8 @@ export const MusicControls = () => {
   const [isPlaying, setIsPlaying] = useState<boolean>(true)
 
   const music = useRef<HTMLAudioElement>(null)
+
+  const bgColor = useColorModeValue('white', 'black')
 
   //Changes volume icon based on volume level
   let VolumeIcon = <VolumeLowIcon boxSize="6" />
@@ -69,8 +72,8 @@ export const MusicControls = () => {
           <Button variant="ghost">{VolumeIcon}</Button>
         </PopoverTrigger>
 
-        <PopoverContent h="24" w="10" bg="transparent" position="relative">
-          <PopoverArrow bg="transparent" />
+        <PopoverContent h="24" w="10" bg={bgColor} position="relative">
+          <PopoverArrow bg="current" />
 
           <Slider
             colorScheme="gray"
