@@ -14,8 +14,9 @@ export const styles: Styles = {
       color: mode('black', 'white')(props),
       fontFamily: 'body',
       lineHeight: 'base',
-      maxWidth: 'container.lg',
+      maxWidth: 'container.sm',
       mx: 'auto',
+      px: { base: '2', sm: '4' },
       transition: 'all 0.2s'
     },
     'html, body, #__next': {
