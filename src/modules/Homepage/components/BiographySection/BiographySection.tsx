@@ -1,5 +1,5 @@
 import { useColorModeValue } from '@chakra-ui/color-mode'
-import { Heading, HStack, Stack, Text } from '@chakra-ui/layout'
+import { Heading, Stack, Text } from '@chakra-ui/layout'
 
 export const BiographySection = () => {
   const grayColor = useColorModeValue('light.300', 'dark.300')
@@ -17,54 +17,54 @@ export const BiographySection = () => {
         Bio
       </Heading>
 
-      <HStack>
+      <Stack direction={{ base: 'column', sm: 'row' }}>
         <Text color={grayColor} fontWeight="extrabold">
           1997
         </Text>
         <Text>Born in Brasilia - DF, Brazil</Text>
-      </HStack>
+      </Stack>
 
-      <HStack>
+      <Stack direction={{ base: 'column', sm: 'row' }}>
         <Text color={grayColor} fontWeight="extrabold">
           2018
         </Text>
         <Text>Co-founder and Software Engineer of KMJ Consulting</Text>
-      </HStack>
+      </Stack>
 
-      <HStack>
+      <Stack direction={{ base: 'column', sm: 'row' }}>
         <Text color={grayColor} fontWeight="extrabold">
           2020
         </Text>
         <Text>Co-founder and CTO of Corp Insider</Text>
-      </HStack>
+      </Stack>
 
-      <HStack>
+      <Stack direction={{ base: 'column', sm: 'row' }}>
         <Text color={grayColor} fontWeight="extrabold">
           2020
         </Text>
         <Text>Software Engineer of Aluna Social</Text>
-      </HStack>
+      </Stack>
 
-      <HStack>
+      <Stack direction={{ base: 'column', sm: 'row' }}>
         <Text color={grayColor} fontWeight="extrabold">
           2021 - to present
         </Text>
         <Text>Co-founder and CTO at Carbona</Text>
-      </HStack>
+      </Stack>
 
-      <HStack>
+      <Stack direction={{ base: 'column', sm: 'row' }}>
         <Text color={grayColor} fontWeight="extrabold">
           2022 - to present
         </Text>
         <Text>Freelance Software Engineer at Yeti-Labs</Text>
-      </HStack>
+      </Stack>
 
-      <HStack>
+      <Stack direction={{ base: 'column', sm: 'row' }}>
         <Text color={grayColor} fontWeight="extrabold">
           2022 - to present
         </Text>
         <Text>Software Engineer at Faktura</Text>
-      </HStack>
+      </Stack>
     </Stack>
   )
 }
