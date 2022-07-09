@@ -76,7 +76,7 @@ export const MainWorkSection = () => {
           </ChakraLink>
           , an open-source library with react components and hooks for the Terra
           and Cosmos community, and now is working with{' '}
-          <ChakraLink href={links.projects.wizardUi} isExternal>
+          <ChakraLink href={links.projects.faktura} isExternal>
             Faktura
           </ChakraLink>{' '}
           to create the next generation of NFTs.
