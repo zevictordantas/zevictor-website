@@ -1,5 +1,5 @@
 export const links = {
-  email: 'jose@zevictor.me',
+  email: 'mailto:jose@zevictor.me',
 
   musicInspiration: 'https://www.youtube.com/watch?v=Js02m-7qHyE',
 
@@ -12,6 +12,7 @@ export const links = {
 
   social: {
     github: 'https://github.com/zevictordantas',
+    instagram: 'https://www.instagram.com/ze.vtech/',
     linkedin: 'https://www.linkedin.com/in/jvictordantas/',
     twitter: 'https://twitter.com/ze_vdantas'
   }
