@@ -5,6 +5,7 @@ export const links = {
 
   projects: {
     carbona: 'https://www.carbona.io/',
+    faktura: 'https://faktura.art/',
     websiteRepo: 'https://github.com/zevictordantas/zevictor-website',
     wizardUi: 'https://wizard-ui-docs.vercel.app/'
   },
