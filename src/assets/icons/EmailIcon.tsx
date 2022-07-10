@@ -8,7 +8,7 @@ export const EmailIcon = (props: IconProps) => {
       height="24"
       viewBox="0 0 24 24"
       fill="currentColor"
-      fill-rule="evenodd"
+      fillRule="evenodd"
       {...props}
     >
       <path
