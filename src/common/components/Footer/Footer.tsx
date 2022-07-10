@@ -83,6 +83,16 @@ export const Footer = () => {
       </VStack>
 
       <VStack align="left" spacing="6">
+        <ChakraLink
+          href={links.email}
+          isExternal
+          display="flex"
+          alignItems="center"
+          color="current"
+        >
+          <EmailIcon boxSize="5" mr="2" /> Email
+        </ChakraLink>
+
         <Text fontSize="sm">
           {"Don't know which music is playing on the background? here is  "}
           <ChakraLink href={links.musicInspiration} isExternal>
@@ -93,16 +103,6 @@ export const Footer = () => {
         <Text fontSize="sm">
           © 2022 José Victor Dantas. All Rights Reserved.
         </Text>
-
-        <ChakraLink
-          href={links.email}
-          isExternal
-          display="flex"
-          alignItems="center"
-          color="current"
-        >
-          <EmailIcon boxSize="5" mr="2" /> Email
-        </ChakraLink>
       </VStack>
     </SimpleGrid>
   )
