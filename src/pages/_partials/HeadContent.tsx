@@ -10,16 +10,6 @@ export default function HeadContent() {
 
       <link rel="icon" href="/favicon.ico" />
 
-      {/* Fonts */}
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
-
-      <link rel="preconnect" href="https://fonts.gstatic.com" />
-
-      <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
-        rel="stylesheet"
-      />
-
       <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png" />
 
       <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png" />
@@ -84,6 +74,23 @@ export default function HeadContent() {
       <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
 
       <meta name="theme-color" content="#ffffff" />
+
+      {/* Fonts */}
+      <link
+        rel="preload"
+        href="fonts/Roboto/Roboto-Regular.woff2"
+        as="font"
+        type="font/woff2"
+        crossOrigin="anonymous"
+      />
+
+      <link
+        rel="preload"
+        href="fonts/Roboto/Roboto-Bold.woff2"
+        as="font"
+        type="font/woff2"
+        crossOrigin="anonymous"
+      />
     </>
   )
 }
