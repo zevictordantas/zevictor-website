@@ -5,7 +5,7 @@ import {
   AccordionPanel
 } from '@chakra-ui/accordion'
 import { useColorModeValue } from '@chakra-ui/color-mode'
-import { Box, Heading, Stack, Text } from '@chakra-ui/layout'
+import { Box, Heading, Text } from '@chakra-ui/layout'
 import Image from 'next/future/image'
 
 export const Works = () => {
@@ -91,22 +91,24 @@ export const Works = () => {
   ]
 
   return (
-    <Stack spacing="4" as="section">
+    <>
       <Heading
-        fontSize="lg"
+        as="h1"
         fontWeight="extrabold"
         w="fit-content"
         borderBottom={`4px solid`}
         borderColor={underlineColor}
+        mb="6"
       >
         Portfolio details
       </Heading>
 
-      <Accordion allowMultiple>
+      <Accordion allowMultiple mb="10">
         {jobs.map((job, index) => (
           <AccordionItem
             key={index + job.period}
             borderRadius="lg"
+            overflow="clip"
             border="none"
             bgColor={bgColor}
             mb="4"
@@ -153,6 +155,6 @@ export const Works = () => {
           </AccordionItem>
         ))}
       </Accordion>
-    </Stack>
+    </>
   )
 }

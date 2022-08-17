@@ -31,10 +31,6 @@ export const Navbar = () => {
           <ChakraLink>Works</ChakraLink>
         </Link>
 
-        <Link href={paths.posts}>
-          <ChakraLink>Posts</ChakraLink>
-        </Link>
-
         <ChakraLink
           href={links.projects.websiteRepo}
           isExternal
