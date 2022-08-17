@@ -5,6 +5,37 @@ export const BiographySection = () => {
   const grayColor = useColorModeValue('light.300', 'dark.300')
   const underlineColor = useColorModeValue('light.600', 'dark.600')
 
+  const timeline = [
+    {
+      eventDescription: 'Born in Brasilia - DF, Brazil',
+      period: '1997'
+    },
+    {
+      eventDescription: 'Co-founder and Software Engineer of KMJ Consulting',
+      period: '2018'
+    },
+    {
+      eventDescription: 'Co-founder and CTO of Corp Insider',
+      period: '2020'
+    },
+    {
+      eventDescription: 'Software Engineer of Aluna Social',
+      period: '2020'
+    },
+    {
+      eventDescription: 'Software Engineer at Faktura',
+      period: '2022'
+    },
+    {
+      eventDescription: 'Co-founder and CTO at Carbona',
+      period: '2021 - to present'
+    },
+    {
+      eventDescription: 'Freelance Software Engineer at Yeti-Labs',
+      period: '2022 - to present'
+    }
+  ]
+
   return (
     <Stack spacing="4" as="section">
       <Heading
@@ -17,54 +48,18 @@ export const BiographySection = () => {
         Bio
       </Heading>
 
-      <Stack direction={{ base: 'column', sm: 'row' }}>
-        <Text color={grayColor} fontWeight="extrabold">
-          1997
-        </Text>
-        <Text>Born in Brasilia - DF, Brazil</Text>
-      </Stack>
+      {timeline.map((event, index) => (
+        <Stack
+          key={index + event.period}
+          direction={{ base: 'column', sm: 'row' }}
+        >
+          <Text color={grayColor} fontWeight="extrabold">
+            {event.period}
+          </Text>
 
-      <Stack direction={{ base: 'column', sm: 'row' }}>
-        <Text color={grayColor} fontWeight="extrabold">
-          2018
-        </Text>
-        <Text>Co-founder and Software Engineer of KMJ Consulting</Text>
-      </Stack>
-
-      <Stack direction={{ base: 'column', sm: 'row' }}>
-        <Text color={grayColor} fontWeight="extrabold">
-          2020
-        </Text>
-        <Text>Co-founder and CTO of Corp Insider</Text>
-      </Stack>
-
-      <Stack direction={{ base: 'column', sm: 'row' }}>
-        <Text color={grayColor} fontWeight="extrabold">
-          2020
-        </Text>
-        <Text>Software Engineer of Aluna Social</Text>
-      </Stack>
-
-      <Stack direction={{ base: 'column', sm: 'row' }}>
-        <Text color={grayColor} fontWeight="extrabold">
-          2021 - to present
-        </Text>
-        <Text>Co-founder and CTO at Carbona</Text>
-      </Stack>
-
-      <Stack direction={{ base: 'column', sm: 'row' }}>
-        <Text color={grayColor} fontWeight="extrabold">
-          2022 - to present
-        </Text>
-        <Text>Freelance Software Engineer at Yeti-Labs</Text>
-      </Stack>
-
-      <Stack direction={{ base: 'column', sm: 'row' }}>
-        <Text color={grayColor} fontWeight="extrabold">
-          2022 - to present
-        </Text>
-        <Text>Software Engineer at Faktura</Text>
-      </Stack>
+          <Text>{event.eventDescription}</Text>
+        </Stack>
+      ))}
     </Stack>
   )
 }

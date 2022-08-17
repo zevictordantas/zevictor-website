@@ -59,10 +59,10 @@ export const MainWorkSection = () => {
         </Heading>
 
         <Text textAlign="justify">
-          José is a freelance and a full-stack developer based in Brazil with a
-          passion for building web apps with a socio-economic impact. He has a
-          knack for tackling community-impacting projects, from planning and
-          designing all the way to the code. When he isn’t online, you’ll be
+          José is a freelance and a full-stack Web3 developer based in Brazil
+          with a passion for building web apps with a socio-economic impact. He
+          has a knack for tackling community-impacting projects, from planning
+          and designing all the way to the code. When he isn’t online, you’ll be
           able to find him riding his MTB on trails looking for waterfalls and
           wonderful views. Currently, Zé is working on his own project,{' '}
           <ChakraLink href={links.projects.carbona} isExternal>
@@ -75,11 +75,7 @@ export const MainWorkSection = () => {
             Wizard-UI
           </ChakraLink>
           , an open-source library with react components and hooks for the Terra
-          and Cosmos community, and now is working with{' '}
-          <ChakraLink href={links.projects.faktura} isExternal>
-            Faktura
-          </ChakraLink>{' '}
-          to create the next generation of NFTs.
+          and Cosmos community.
         </Text>
       </Stack>
 
