@@ -23,7 +23,7 @@ export const BiographySection = () => {
       period: '2020'
     },
     {
-      eventDescription: 'Software Engineer at Faktura',
+      eventDescription: 'Senior Frontend Engineer at Faktura',
       period: '2022'
     },
     {

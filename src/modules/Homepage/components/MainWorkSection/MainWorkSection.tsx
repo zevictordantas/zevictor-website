@@ -81,7 +81,7 @@ export const MainWorkSection = () => {
 
       <Link passHref href={paths.works}>
         <Button my="6" as="a">
-          My portfolio
+          Portfolio details
         </Button>
       </Link>
     </>
