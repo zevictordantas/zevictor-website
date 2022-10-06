@@ -59,23 +59,23 @@ export const MainWorkSection = () => {
         </Heading>
 
         <Text textAlign="justify">
-          José is a freelance and a full-stack Web3 developer based in Brazil
-          with a passion for building web apps with a socio-economic impact. He
-          has a knack for tackling community-impacting projects, from planning
-          and designing all the way to the code. When he isn’t online, you’ll be
-          able to find him riding his MTB on trails looking for waterfalls and
-          wonderful views. Currently, Zé is working on his own project,{' '}
+          José is a full-stack Web3 developer based in Brazil with a passion for
+          building web apps with a socio-economic impact. He has a knack for
+          tackling community-impacting projects, from planning and designing all
+          the way to the code. When he isn’t online, you’ll be able to find him
+          riding his MTB on trails looking for waterfalls and wonderful views.
+          Currently, Zé is working as CIO of{' '}
+          <ChakraLink href={links.projects.blockC} isExternal>
+            BlockC
+          </ChakraLink>
+          , an end-to-end solution in the carbon credits market, orchestrating
+          between registry, auditing, issuing and trading carbon based assets.He
+          is also working on his own project,{' '}
           <ChakraLink href={links.projects.carbona} isExternal>
             carbona.io
           </ChakraLink>
           , which will be disrupting the access to the process of generating
-          carbon credits, he is also working with Yeti Labs on awesome projects
-          on the Cosmos Ecosystem, like the{' '}
-          <ChakraLink href={links.projects.wizardUi} isExternal>
-            Wizard-UI
-          </ChakraLink>
-          , an open-source library with react components and hooks for the Terra
-          and Cosmos community.
+          carbon credits.
         </Text>
       </Stack>
 

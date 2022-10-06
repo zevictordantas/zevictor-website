@@ -27,11 +27,15 @@ export const BiographySection = () => {
       period: '2022'
     },
     {
+      eventDescription: 'Senior Software Engineer at Yeti-Labs',
+      period: '2022'
+    },
+    {
       eventDescription: 'Co-founder and CTO at Carbona',
       period: '2021 - to present'
     },
     {
-      eventDescription: 'Freelance Software Engineer at Yeti-Labs',
+      eventDescription: 'CIO at BlockC',
       period: '2022 - to present'
     }
   ]

@@ -65,6 +65,18 @@ export const Works = () => {
     },
     {
       jobDetails: [
+        'We are outsourcing for Dapp projects on Cosmos Ecosystem, Terra Luna. (Cases: Sigma, Andromeda, Minerva, Prism, Vertex, WhiteWhale, Nexus, Astroport and Persistence)',
+        '· Main Techs: TypeScript, Redux, NextJS, Remix, Chakra-UI, Web3.js, Ethers.js, Solidity, GraphQl, Terra.js.',
+        '· Create reusable components for clients and test coverage.',
+        '. Integrate smart contracts on the frontend and aid SC engineers.',
+        '. Refact code in a fast-paced environment.'
+      ],
+      jobImage: 'yeti-labs-logo.jpg',
+      jobTitle: 'Senior Software Engineer at Yeti-Labs',
+      period: '2022'
+    },
+    {
+      jobDetails: [
         'Carbona is a project that will be disrupting the access to the process of generating carbon credits, my key responsibilities are:',
         '· Hands-on leadership and R&D',
         '· DevOps Architecture and Implementation',
@@ -78,14 +90,15 @@ export const Works = () => {
     },
     {
       jobDetails: [
-        'We are outsourcing for Dapp projects on Cosmos Ecosystem, Terra Luna. (Cases: Sigma, Andromeda, Minerva, Prism, Vertex, WhiteWhale, Nexus, Astroport and Persistence)',
-        '· Main Techs: TypeScript, Redux, NextJS, Remix, Chakra-UI, Web3.js, Ethers.js, Solidity, GraphQl, Terra.js.',
-        '· Create reusable components for clients and test coverage.',
-        '. Integrate smart contracts on the frontend and aid SC engineers.',
-        '. Refact code in a fast-paced environment.'
+        'BlockC is an end-to-end solution in the carbon credits market, orchestrating between registry, auditing, issuing and trading carbon based assets. My main responsibilities are:',
+        '· Hands-on leadership and R&D',
+        '· DevOps Architecture and Implementation',
+        '· Systems Engineering',
+        '· Blockchain Development',
+        '· Manage outsourcing and third-party services'
       ],
-      jobImage: 'yeti-labs-logo.jpg',
-      jobTitle: 'Freelance Software Engineer at Yeti-Labs',
+      jobImage: 'blockc.png',
+      jobTitle: 'CIO at BlockC',
       period: '2022 - to present'
     }
   ]

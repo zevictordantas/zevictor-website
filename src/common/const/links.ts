@@ -4,10 +4,10 @@ export const links = {
   musicInspiration: 'https://www.youtube.com/watch?v=Js02m-7qHyE',
 
   projects: {
+    blockC: 'https://blockc.com.br/',
     carbona: 'https://www.carbona.io/',
     faktura: 'https://faktura.art/',
-    websiteRepo: 'https://github.com/zevictordantas/zevictor-website',
-    wizardUi: 'https://wizard-ui-docs.vercel.app/'
+    websiteRepo: 'https://github.com/zevictordantas/zevictor-website'
   },
 
   social: {
