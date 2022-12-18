@@ -38,6 +38,12 @@ module.exports = {
     '@typescript-eslint/no-empty-function': 'off',
     eqeqeq: ['error', 'always'],
     'no-useless-escape': 'off',
+    'prettier/prettier': [
+      'error',
+      {
+        endOfLine: 'auto'
+      }
+    ],
     'react/prop-types': 'off',
     'react/react-in-jsx-scope': 'off',
     'simple-import-sort/exports': 'error',

@@ -1,7 +1,6 @@
 import { useColorModeValue } from '@chakra-ui/color-mode'
 import { Link as ChakraLink, SimpleGrid, Text, VStack } from '@chakra-ui/layout'
 import { EmailIcon, GithubIcon, LinkedinIcon, TwitterIcon } from 'assets/icons'
-import { InstagramIcon } from 'assets/icons/InstagramIcon'
 import { links, paths } from 'common/const'
 import Link from 'next/link'
 
@@ -70,15 +69,6 @@ export const Footer = () => {
           alignItems="center"
         >
           <TwitterIcon boxSize="5" mr="2" /> Twitter
-        </ChakraLink>
-
-        <ChakraLink
-          href={links.social.instagram}
-          isExternal
-          display="flex"
-          alignItems="center"
-        >
-          <InstagramIcon boxSize="5" mr="2" /> Instagram
         </ChakraLink>
       </VStack>
 
